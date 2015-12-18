@@ -9,3 +9,7 @@
 # Maven
 log/
 target/
+
+_SUCCESS
+*.crc
+*.log

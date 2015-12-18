@@ -16,7 +16,7 @@ public class RankMapper extends Mapper<Text, Text, Text, Text> {
         int splitPos = value.toString().indexOf("\t");
         float pageRank = Float.parseFloat(value.toString().substring(0, splitPos));
         String links = value.toString().substring(splitPos + 1, value.toString().length());
-        String[] linksTab = links.split(", ");
+        String[] linksTab = links.split(" ");
 
         Text currentPage = new Text(page+"\t"+pageRank+"\t"+linksTab.length);
 
