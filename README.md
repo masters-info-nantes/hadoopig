@@ -1,6 +1,6 @@
 # hado[o]pi[g]
 
-![Elephant honey](https://raw.githubusercontent.com/masters-info-nantes/hadoopig/master/hadoopig.png)
+![hadoopig](https://raw.githubusercontent.com/masters-info-nantes/hadoopig/master/hadoopig.png)
 
 ## Hadoop
 
